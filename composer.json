@@ -1,0 +1,25 @@
+{
+    "name": "euskadi31/cache-service-provider",
+    "description": "A Cache Service Provider for Silex 2.0, using the doctrine/cache package",
+    "type": "library",
+    "require": {
+        "doctrine/cache": "^1.4",
+        "silex/silex": "~2.0@dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.7",
+        "leaphub/phpcs-symfony2-standard": "~2.0.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Axel Etcheverry",
+            "email": "axel@etcheverry.biz"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Euskadi31\\Silex\\": "src/"
+        }
+    }
+}
