@@ -1,5 +1,8 @@
 # Silex Cache Service Provider
 
+[![Build Status](https://travis-ci.org/euskadi31/CacheServiceProvider.svg?branch=master)](https://travis-ci.org/euskadi31/CacheServiceProvider)
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/e1ce7009-a8ad-4d83-bdf8-45f35ce4922f/mini.png)](https://insight.sensiolabs.com/projects/e1ce7009-a8ad-4d83-bdf8-45f35ce4922f)
+
 This service provider for Silex 2.0 uses the Cache classes from Doctrine
 Common to provide a cache service to a Silex application, and other service providers.
 
