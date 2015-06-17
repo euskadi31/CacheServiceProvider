@@ -101,7 +101,7 @@ class CacheServiceProvider implements ServiceProviderInterface
                     ));
                 }
 
-                if (isset($options['namespace']) and is_callable([$cache, 'setNamespace'])) {
+                if (isset($options['namespace']) && is_callable([$cache, 'setNamespace'])) {
                     $cache->setNamespace($options['namespace']);
                 }
 
